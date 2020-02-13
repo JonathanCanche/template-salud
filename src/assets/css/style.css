@@ -40,8 +40,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .section-padding{
-	padding: 60px 0px;
-
+    padding: 60px 0px;
 }
 h2 {
     line-height: 20px;
@@ -149,8 +148,11 @@ banner
 	position: relative;*/
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
-	min-height: 650px;
+    min-height: 650px;
+    background-size:cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+
 }
 .banner-info{
 	padding-top: 190px;
@@ -196,7 +198,8 @@ services
 	margin-bottom: 25px;
 }
 .service-info{
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .icon-info h4{
 	padding-bottom: 15px;
@@ -451,6 +454,7 @@ footer
     text-align: left;
 }
 .social-icon li {
+    border-radius: 2px;
     color: white;
     float: left;
     width: 50px;
@@ -466,7 +470,7 @@ footer
     background-color: #E74C3C;
 }
 .bgpink {
-    background-color: #CA2693;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 .bgdark-blue {
     background-color: #2C3E50;

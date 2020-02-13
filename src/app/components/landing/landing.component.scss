@@ -1,0 +1,74 @@
+.photo{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    min-height: 650px;
+    background-color: rgba(13, 70, 83, 0.78);
+}
+
+.container_horario{
+    background-color: #0cb8b6;
+}
+
+.titulo_horario{
+    display: flex;
+    justify-content: center;
+    ._titulo_color{
+        color: #fff;
+    }
+}
+
+.hora_container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+
+    ._dia_horario{
+        flex-basis: 35%;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    }
+    ._hora_horario{
+    flex-basis: 35%;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    }
+}
+
+div.pyme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 12px;
+      margin: 0;
+    }
+    img {
+      height: 50px;
+      width: auto;
+      text-align: center;
+    }
+    // margin-top:3.125rem;
+    padding: 10px;
+  }
+
+  .icon_socilales{
+      font-size: x-large!important;
+  }
+
+  .navbar-tooglee{
+      border-color:#fff!important; 
+  }
+
+  .navbar-toogle-icon{
+      background-color: #fff !important;
+  }
+
+  a{
+      cursor: pointer;
+  }
